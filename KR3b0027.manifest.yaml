@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR3b0027/v1
+canonical_location: https://kanripo.org/bkk/KR3b0027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 六韜
+  identifiers:
+    krp: KR3b0027
+  tags:
+    kr-categories: KR3b
+    tls-internal:
+    - swl
+    - tr-en
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0027.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0027_001.yaml, hash: 'sha256:e666088cadf4177d5b539096a091faf2fef2d646ae9d77ea47426b75cf908eb4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0027_001.markers.yaml, hash: 'sha256:16073f42701a6c9a81e8bad98787b7626d6f4e9e29e539fb282a0ffb9d2a4ebd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0027_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2158
+  label: 一
+  type: section
+  level: 1
+hash: sha256:9b19d046a87db85120410b98a5e19cbbf9acf83155cf59b4a805d693e6c0c200
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

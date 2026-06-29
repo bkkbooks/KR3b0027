@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR3b0027/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3b0027/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 六韜
+  identifiers:
+    krp: KR3b0027
+  tags:
+    kr-categories: KR3b
+    tls-internal:
+    - swl
+    - tr-en
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0027.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0027_001-CHANT.yaml, hash: 'sha256:3c37006d2eea63462152220bb12c31ed065746b45703a8077b0b2b67f4746a68'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0027_001-CHANT.markers.yaml, hash: 'sha256:6d4bb109d5d49218b64d95b8dea424334e05ac13ca6b08ab439c3f942ac13914'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0027_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2158
+  label: 一
+  type: section
+  level: 1
+hash: sha256:79012e865aaf723c3a9d165493d9ca6c36389bbddacd20a5097349b5a006a27e
